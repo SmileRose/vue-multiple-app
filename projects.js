@@ -2,7 +2,7 @@
 * @Author: zhaohongmei
 * @Date:   2021-07-16 14:40:44
 * @Last Modified by:   zhaohongmei
-* @Last Modified time: 2021-07-16 14:44:31
+* @Last Modified time: 2021-07-20 14:43:45
 */
 let path = require('path')
 let glob = require('glob')
@@ -55,7 +55,7 @@ const config = {
     },
     outputDir: "dist/project1/"
   },
-  projectB: {
+  project2: {
     pages: {
       index: {
         entry: "src/apps/project2/main.js",

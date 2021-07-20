@@ -5,8 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "serve:projectA": "cross-env PROJECT_NAME=projectA vue-cli-service serve --open",
-    "build:projectA": "cross-env PROJECT_NAME=projectA vue-cli-service build",
+    "serve:project1": "cross-env PROJECT_NAME=project1 vue-cli-service serve --open",
+    "build:project1": "cross-env PROJECT_NAME=project1 vue-cli-service build",
+    "serve:project2": "cross-env PROJECT_NAME=project2 vue-cli-service serve --open",
+    "build:project2": "cross-env PROJECT_NAME=project2 vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
